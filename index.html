@@ -4,28 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the poem" />
-            <input type="submit" />
-        </form>
-        <div>
-            The poem will go here
-            <br />
-            The poem will go here
-        </div>
-    </main>
+    <div class="container">
+        <h1> AI Poem Generator ༺♡༻</h1>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the poem" required autofocus autocomplete="off"
+                    class="poem-form" />
+                <input type="submit" class="submit-bottom" />
+            </form>
+            <div class="verses">
+                The poem will go here
+                <br />
+                The poem will go here
+            </div>
+        </main>
 
 
 
-    <footer>This project was coded by Dajana and it's <a href="https://github.com/dajana-lab/poem-generator-project"
-            target="_blank">open-sourced on GitHub</a>
-        and it's <a href="https://project-poem-generator.netlify.app/" target="_blank">hosted on Netlify</a></footer>
+        <footer>This project was coded by Dajana and it's <a href="https://github.com/dajana-lab/poem-generator-project"
+                target="_blank">open-sourced on GitHub</a>
+            and it's <a href="https://project-poem-generator.netlify.app/" target="_blank">hosted on Netlify</a>
+        </footer>
+    </div>
+
+
+
     <script src="src/app.js"></script>
 
 </body>
