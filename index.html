@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css">
     <title>Document</title>
 </head>
@@ -19,7 +19,7 @@
         <main>
             <form id="poem-generator-form">
                 <input type="text" placeholder="Enter the topic of the poem" required autofocus autocomplete="off"
-                    class="poem-form" />
+                    class="poem-form" id="client-poem" />
                 <input type="submit" class="submit-bottom" />
             </form>
             <div class="verses" id="poem"></div>
